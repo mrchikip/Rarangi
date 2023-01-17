@@ -2,6 +2,7 @@
     "files.autoSave": "onFocusChange",
     "cSpell.words": [
         "Hola",
-        "Putos"
+        "Putos",
+        "tasksdb"
     ]
 }
