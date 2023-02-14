@@ -4,4 +4,27 @@ GET {{api}}
 
 ###
 
+GET {{api}}/1
+###
+
 POST {{api}}
+Content-Type: application/json
+
+{
+    "tittle": "i must create an app",
+    "description": "using react native"
+}
+
+###
+
+DELETE {{api}}/5
+
+
+###
+
+PUT {{api}}/1
+Content-Type: application/json
+
+{
+    "tittle": "I have to dinner"
+}
