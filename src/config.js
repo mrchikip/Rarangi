@@ -1,6 +1,9 @@
+import { config as dotenv } from "dotenv";
+dotenv();
+
 export const config = {
-    host: 'buscaefz5hnbxjjhmj9b-mysql.services.clever-cloud.com',
-    user: 'ufmtjym0t9qlcikr',
-    password: 'asQ2PuqlJFROOgNIKO3I',
-    database: 'buscaefz5hnbxjjhmj9b'
-}
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE,
+};
