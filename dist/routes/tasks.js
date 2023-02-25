@@ -1,7 +1,12 @@
-import { Router } from 'express';
-import { deleteTask, getTask, getTaskCount, getTasks, saveTask, updateTask } from '../controllers/tasks';
+"use strict";
 
-const router = Router();
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+var _express = require("express");
+var _tasks = require("../controllers/tasks");
+var router = (0, _express.Router)();
 
 /**
  * @swagger
@@ -18,7 +23,7 @@ const router = Router();
  *      tags: [Tasks]
  */
 
-router.get('/tasks', getTasks)
+router.get('/tasks', _tasks.getTasks);
 
 /**
  * @swagger
@@ -28,7 +33,7 @@ router.get('/tasks', getTasks)
  *      tags: [Tasks]
  */
 
-router.get('/tasks/count', getTaskCount)
+router.get('/tasks/count', _tasks.getTaskCount);
 
 /**
  * @swagger
@@ -38,7 +43,7 @@ router.get('/tasks/count', getTaskCount)
  *      tags: [Tasks]
  */
 
-router.get('/tasks/:id', getTask)
+router.get('/tasks/:id', _tasks.getTask);
 
 /**
  * @swagger
@@ -48,7 +53,7 @@ router.get('/tasks/:id', getTask)
  *      tags: [Tasks]
  */
 
-router.post('/tasks', saveTask)
+router.post('/tasks', _tasks.saveTask);
 
 /**
  * @swagger
@@ -58,7 +63,7 @@ router.post('/tasks', saveTask)
  *      tags: [Tasks]
  */
 
-router.delete('/tasks/:id', deleteTask)
+router["delete"]('/tasks/:id', _tasks.deleteTask);
 
 /**
  * @swagger
@@ -68,6 +73,6 @@ router.delete('/tasks/:id', deleteTask)
  *      tags: [Tasks]
  */
 
-router.put('/tasks/:id', updateTask)
-
-export default router
+router.put('/tasks/:id', _tasks.updateTask);
+var _default = router;
+exports["default"] = _default;

@@ -1,11 +1,12 @@
 {
     "name": "backend",
     "version": "1.0.0",
-    "description": "",
     "main": "index.js",
     "scripts": {
         "build": "babel src -d dist",
-        "dev": "nodemon src --exec babel-node"
+        "dev": "nodemon src --exec babel-node",
+        "start": "node dist"
+
     },
     "keywords": [],
     "author": "",
@@ -15,15 +16,24 @@
         "dotenv": "^16.0.3",
         "express": "^4.18.2",
         "morgan": "^1.10.0",
-        "mysql2": "^3.0.1",
-        "swagger-jsdoc": "^6.2.7",
-        "swagger-ui-express": "^4.6.0"
+        "mysql2": "^3.1.2",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-express": "^4.6.1"
     },
     "devDependencies": {
-        "@babel/cli": "^7.20.7",
-        "@babel/core": "^7.20.12",
+        "@babel/cli": "^7.21.0",
+        "@babel/core": "^7.21.0",
         "@babel/node": "^7.20.7",
         "@babel/preset-env": "^7.20.2",
         "nodemon": "^2.0.20"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mrchikip/rarangi.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mrchikip/rarangi/issues"
+    },
+    "homepage": "https://github.com/mrchikip/rarangi#readme",
+    "description": ""
 }

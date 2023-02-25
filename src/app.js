@@ -18,6 +18,6 @@ app.use(express.json());
 
 app.use(taskRoutes)
 
-app.use('/docs', swaggerUI.serve, swaggerUI.setup(specs))
+app.use('/docs', swaggerUI.serve, swaggerUI.setup(specs));
 
 export default app
