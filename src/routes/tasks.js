@@ -18,7 +18,7 @@ const router = Router();
  *      tags: [Tasks]
  */
 
-router.get('/tasks', getTasks)
+router.get('/tasks', getTasks);
 
 /**
  * @swagger
@@ -28,7 +28,7 @@ router.get('/tasks', getTasks)
  *      tags: [Tasks]
  */
 
-router.get('/tasks/count', getTaskCount)
+router.get('/tasks/count', getTaskCount);
 
 /**
  * @swagger
@@ -38,7 +38,7 @@ router.get('/tasks/count', getTaskCount)
  *      tags: [Tasks]
  */
 
-router.get('/tasks/:id', getTask)
+router.get('/tasks/:id', getTask);
 
 /**
  * @swagger
@@ -48,7 +48,7 @@ router.get('/tasks/:id', getTask)
  *      tags: [Tasks]
  */
 
-router.post('/tasks', saveTask)
+router.post('/tasks', saveTask);
 
 /**
  * @swagger
@@ -58,7 +58,7 @@ router.post('/tasks', saveTask)
  *      tags: [Tasks]
  */
 
-router.delete('/tasks/:id', deleteTask)
+router.delete('/tasks/:id', deleteTask);
 
 /**
  * @swagger
@@ -68,6 +68,6 @@ router.delete('/tasks/:id', deleteTask)
  *      tags: [Tasks]
  */
 
-router.put('/tasks/:id', updateTask)
+router.put('/tasks/:id', updateTask);
 
-export default router
+export default router;
