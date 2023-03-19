@@ -52,5 +52,5 @@ CREATE TABLE gestion_equipos (
   ubicacion VARCHAR(100),
   link_acta VARCHAR(255),
   FOREIGN KEY (usuario_cedula) REFERENCES usuarios(cedula),
-  FOREIGN KEY (equipo_serial) REFERENCES equipos(serial_equipo)
+  FOREIGN KEY (equipo_serial) REFERENCES equipos(serial)
 );
