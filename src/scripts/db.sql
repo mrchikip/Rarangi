@@ -57,7 +57,6 @@ CREATE TABLE gestion_equipos (
 
 INSERT INTO equipos ( nombre_equipo, categoria, serial, sistema_operativo, modelo, fabricante, procesador, ram, tipo_almacenamiento, capacidad_almacenamiento) VALUES
 ('WS-AMP','Workstation','SPF33ETV6','Windows 10 Pro','Thinkpad E15 g3','Lenovo','Ryzen 5 - 5500U','8','SSD','512'),
-VALUES 
 ('NB-CMA', 'NoteBook', '1Q1D733', 'Windows 10 Pro', 'Xps 13 9300', 'Dell', 'Intel Core I7-1065g7', '8', 'SSD', '512'),
 ('NB-LGP', 'NoteBook', 'CBNYJZ2', 'Windows 10 Pro', 'Vostro 3490', 'Dell', 'Intel Core I5-10210u', '8', 'HDD', '1024'),
 ('NB-AJM', 'NoteBook', '8JNTVG3', 'Windows 10 Pro', 'Latitude 3420', 'Dell', 'Intel Core I7-1165g7', '8', 'SSD', '512'),
@@ -71,19 +70,18 @@ VALUES
 ('NB-AAM', 'NoteBook', '3X9J733', 'Windows 10 Pro', 'Latitude 5400', 'Dell', 'Intel Core I7-8665u', '8', 'HDD', '1024'),
 ('NB-AEG', 'NoteBook', 'CZ42HG3', 'Windows 10 Pro', 'Latitude 3420', 'Dell', 'Intel Core I5-1135g7', '8', 'SSD', '256');
 
-INSERT INTO equipos (nombre_equipo, categoria, serial, sistema_operativo, modelo, fabricante, procesador, ram, tipo_almacenamiento, capacidad_almacenamiento) VALUES
-('WS-ALM','Workstation','MJ01T99Y','Windows 10 Pro','30aga00w00','Lenovo','Intel Xeon E3-1226','8','HDD'),
-('NB-AMA','NoteBook','4QRZYZ2','Windows 10 Pro','Latitude 3400','Dell','Intel Core I5-8265u','8','SSD'),
-('NB-AON','NoteBook','FK3Z763','Windows 10 Pro','Latitude 3410','Dell','Intel Core I5-10210u','8','SSD'),
-('NB-ARA','NoteBook','1852HG3','Windows 10 Pro','Latitude 3420','Dell','Intel Core I5-1135g7','8','SSD'),
-('WS-AFV','Workstation','SPF3LPMHL','Windows 10 Pro','Thinkpad P15s 2g','Lenovo','Core i7 11va gen','16','SSD'),
-('NB-AFC1','NoteBook','H062HG3','Windows 10 Pro','Latitude 3420','Dell','Intel Core I5-1135g7','8','SSD'),
-('NB-ACP','NoteBook','77LKT93','Windows 10 Pro','Latitude 3420','Dell','Intel Core I5-1135g7','8','SSD'),
-('NB-AVL','NoteBook','2C26Q93','Windows 10 Pro','Vostro 14 5410','Dell','Intel Core I7-11370h','8','SSD'),
-('NB-ARO1','NoteBook','1BND863','Windows 10 Pro','Latitude 3410','Dell','Intel Core I5-10210u','8','SSD'),
-('NB-PCO2','NoteBook','3L7Z963','Windows 10 Pro','Latitude 3410','Dell','Intel Core I5-10210u','4','SSD'),
-('NB-CSC','NoteBook','HH7Z963','Windows 10 Pro','Latitude 3410','Dell','Intel Core I5-10210u','8','SSD'),
-('NB-CLS','NoteBook','CLG4CL3','Windows 10 Pro','Inspiron 3420','Dell','Core i5 11va gen','8','SSD');
+INSERT INTO equipos ( nombre_equipo, categoria, serial, sistema_operativo, modelo, fabricante, procesador, ram, tipo_almacenamiento, capacidad_almacenamiento) VALUES
+('NB-AMA','NoteBook','4QRZYZ2','Windows 10 Pro','Latitude 3400','Dell','Intel Core I5-8265u','8','SSD','480'),
+('NB-AON','NoteBook','FK3Z763','Windows 10 Pro','Latitude 3410','Dell','Intel Core I5-10210u','8','SSD','256'),
+('NB-ARA','NoteBook','1852HG3','Windows 10 Pro','Latitude 3420','Dell','Intel Core I5-1135g7','8','SSD','256'),
+('WS-AFV','Workstation','SPF3LPMHL','Windows 10 Pro','Thinkpad P15s 2g','Lenovo','Core i7 11va gen','16','SSD','512'),
+('NB-AFC1','NoteBook','H062HG3','Windows 10 Pro','Latitude 3420','Dell','Intel Core I5-1135g7','8','SSD','256'),
+('NB-ACP','NoteBook','77LKT93','Windows 10 Pro','Latitude 3420','Dell','Intel Core I5-1135g7','8','SSD','256'),
+('NB-AVL','NoteBook','2C26Q93','Windows 10 Pro','Vostro 14 5410','Dell','Intel Core I7-11370h','8','SSD','256'),
+('NB-ARO1','NoteBook','1BND863','Windows 10 Pro','Latitude 3410','Dell','Intel Core I5-10210u','8','SSD','256'),
+('NB-PCO2','NoteBook','3L7Z963','Windows 10 Pro','Latitude 3410','Dell','Intel Core I5-10210u','4','SSD','256'),
+('NB-CSC','NoteBook','HH7Z963','Windows 10 Pro','Latitude 3410','Dell','Intel Core I5-10210u','8','SSD','256'),
+('NB-CLS','NoteBook','CLG4CL3','Windows 10 Pro','Inspiron 3420','Dell','Core i5 11va gen','8','SSD','512');
 
 INSERT INTO equipos ( nombre_equipo, categoria, serial, sistema_operativo, modelo, fabricante, procesador, ram, tipo_almacenamiento, capacidad_almacenamiento) VALUES
 ('NB-CSA','NoteBook','DQM3DL3','Windows 10 Pro','Inspiron 3420','Dell','Core i5 11va gen','8','SSD','512'),
@@ -266,7 +264,7 @@ INSERT INTO equipos (nombre_equipo, categoria, serial, sistema_operativo, modelo
 ('NB-AFC', 'NoteBook', '73DM2B3', 'Windows 10 Pro', 'Latitude 3420', 'Dell', 'Intel Core I5-1135g7', '8', 'SSD', '256'),
 ('NB-DGQ', 'NoteBook', '86S9BV1', 'Windows 7 Pro', 'Inspiron 3420', 'Dell', 'Intel Core I5-3210m', '4', 'HDD', '750'),
 ('PC-FJJ', 'Desktop', '8G13VH3', 'Windows 10 Pro', 'Optiplex 3080 sff', 'Dell', 'Intel Core i5-10505', '8', 'SSD', '256'),
-('NB-MMT', 'NoteBook', 'X', 'Windows 7 Pro', 'R9ycza7', 'Lenovo', 'Intel Core I7-3630qm', '10', 'HDD', '500'),
+('NB-MMT', 'NoteBook', 'Xx', 'Windows 7 Pro', 'R9ycza7', 'Lenovo', 'Intel Core I7-3630qm', '10', 'HDD', '500'),
 ('NB-SRG', 'NoteBook', 'BVY9C33', 'Windows 10 Pro', 'Vostro 3490', 'Dell', 'Intel Core I5-10210u', '8', 'HDD', '1024'),
 ('x', 'NoteBook', '779Z963', 'Windows 10 Pro', 'Latitude 3410', 'Dell', 'Intel Core I5-10210u', '8', 'SSD', '256'),
 ('x', 'NoteBook', 'FFNTVG3', 'Windows 10 Pro', 'Latitude 3420', 'Dell', 'Intel Core I7-1165g7', '16', 'SSD', '512'),
@@ -285,8 +283,8 @@ INSERT INTO equipos (nombre_equipo, categoria, serial, sistema_operativo, modelo
 ('X', 'NoteBook', '188P563', 'Windows 10 Pro', 'Latitude 3410', 'Dell', 'Intel Core I5-10210u', '8', 'SSD', '256'),
 ('X', 'NoteBook', '8YG08S2', 'X', 'Precision 3530', 'Dell', 'Intel Core I7-8750h', '16', 'SSD', '480'),
 ('X', 'Desktop', '8NL88V1', 'X', 'Vostro 260s', 'Dell', 'Intel Core I3-2120', '6', 'HDD', '500'),
-('X', 'Desktop', 'TO BE FILLED BY O.E.M.', 'X', 'H61h2-M12', 'Ecs', 'Intel Pentium G620', '2', 'HDD', '500'),
-('X', 'Desktop', 'X', 'NUMA 5E5700', 'SURE Computers', 'Pentium De Doble N˙cleo E5700', '4', 'HDD', '500'),
+('X', 'Desktop', '2 BE FILLED BY OEM', 'X', 'H61h2-M12', 'Ecs', 'Intel Pentium G620', '2', 'HDD', '500'),
+('X', 'Desktop', 'Xx1', 'x', 'NUMA 5E5700', 'SURE Computers', 'Pentium De Doble N˙cleo E5700', '4', 'HDD', '500'),
 ('X', 'Desktop', '188286', 'Windows 7 Pro', 'NUMA 8E5500', 'SURE Computers', 'Pentium De Doble N˙cleo E5500', '4', 'HDD', '500'),
 ('X', 'Desktop', '168603', 'Windows 7 Pro', 'NUMA 9E7500', 'SURE Computers', 'Intel Core2 Duo E7500', '4', 'HDD', '500'),
 ('x', 'Desktop', 'MJWGCZK', 'X', 'ThinkCentre M72e', 'Lenovo', 'Intel Core i3', 'X', 'X', 'X'),
@@ -294,11 +292,11 @@ INSERT INTO equipos (nombre_equipo, categoria, serial, sistema_operativo, modelo
 
 
 INSERT INTO equipos (nombre_equipo, categoria, serial, sistema_operativo, modelo, fabricante, procesador, ram, tipo_almacenamiento, capacidad_almacenamiento) VALUES 
-('NC-CAR1', 'NoteBook', 'x', 'Windows 10 Pro', 'Latitude E7470', 'Dell', 'Intel Core I7-6600u', '8', 'HDD', '500'),
-('X', 'Desktop', '190938', 'X', 'NUMA 5E5700', 'SURE Computers', 'Pentium De Doble N˙cleo E5700', '4', 'HDD', '500'),
-('PC-CEG', 'Desktop', 'x', 'Windows 7 Pro', 'Optiplex 9020', 'Dell', 'Intel Core I5 - 4590', '8', 'HDD', '500'),
-('NB-AEU', 'NoteBook', 'x', 'Windows 7 Pro', 'Latitude E7250', 'Dell', 'Intel Core I7-5600u', '8', 'HDD', '500'),
-('NB-JPB', 'NoteBook', 'x', 'Windows 10 Pro', 'Latitude 7290', 'Dell', 'Intel Core I7-8650u', '8', 'SSD', '256'),
+('NC-CAR1', 'NoteBook', 'x1', 'Windows 10 Pro', 'Latitude E7470', 'Dell', 'Intel Core I7-6600u', '8', 'HDD', '500'),
+('X', 'Desktop', '190938', 'X2', 'NUMA 5E5700', 'SURE Computers', 'Pentium De Doble N˙cleo E5700', '4', 'HDD', '500'),
+('PC-CEG', 'Desktop', 'x3', 'Windows 7 Pro', 'Optiplex 9020', 'Dell', 'Intel Core I5 - 4590', '8', 'HDD', '500'),
+('NB-AEU', 'NoteBook', 'x4', 'Windows 7 Pro', 'Latitude E7250', 'Dell', 'Intel Core I7-5600u', '8', 'HDD', '500'),
+('NB-JPB', 'NoteBook', 'x5', 'Windows 10 Pro', 'Latitude 7290', 'Dell', 'Intel Core I7-8650u', '8', 'SSD', '256'),
 ('pc-PCE', 'Desktop', '804PCX1', 'Windows 7 Pro', 'optiplex', 'Dell', 'Intel Core I3-4030u', '8', 'HDD', '500'),
 ('x', 'Desktop', '12ZXHM1', 'Windows 7 Pro', 'Optiplex 780', 'Dell', 'Intel Core2 Duo E7500', '3', 'HDD', '500'),
 ('X', 'NoteBook', 'DHCKQT1', 'X', 'Inspiron 5423', 'Dell', 'Intel Core I7-3537u', '4', 'HDD', '500'),
@@ -318,17 +316,17 @@ INSERT INTO equipos (nombre_equipo, categoria, serial, sistema_operativo, modelo
 ('X', 'NoteBook', '5CG5371DVR', 'X', '240 G4 Notebook Pc', 'Hewlett-Packard', 'Intel Core I5-5200u', '8', 'HDD', '500'),
 ('X', 'NoteBook', '5YKNKW1', 'X', 'Inspiron 3421', 'Dell', 'Intel Core I5-3317u', '4', 'HDD', '500'),
 ('X', 'Desktop', '1FQTBY1', 'X', 'Vostro 270s', 'Dell', 'Intel Core Ci3-3220', '4', 'HDD', '1024'),
-('X', 'Desktop', 'TO BE FILLED BY OEM', 'X', 'H61m-Ds2', 'Gigabyte Technology Co', 'Intel Core I3-2100', '4', 'HDD', '500'),
+('X', 'Desktop', '2 BE FILLED BY OEMx', 'X', 'H61m-Ds2', 'Gigabyte Technology Co', 'Intel Core I3-2100', '4', 'HDD', '500'),
 ('X', 'Desktop', 'DKLSFX1', 'X', 'Optiplex 7010', 'Dell', 'Intel Core I5-3470', '4', 'HDD', '500'),
-('X', 'Desktop', 'x', 'X', 'Dh55tc', 'ElectrÛnica Qbex', 'Intel Core I5 650', '4', 'HDD', '500'),
-('X', 'Desktop', 'x', 'X', 'x', 'Intel Core 2 Duo', '3', 'HDD', '500');
+('X', 'Desktop', 'x9', 'X', 'Dh55tc', 'ElectrÛnica Qbex', 'Intel Core I5 650', '4', 'HDD', '500'),
+('X', 'Desktop', 'x10', 'X', 'x', 'x', 'Intel Core 2 Duo', '3', 'HDD', '500');
 
 INSERT INTO equipos (nombre_equipo, categoria, serial, sistema_operativo, modelo, fabricante, procesador, ram, tipo_almacenamiento, capacidad_almacenamiento) VALUES
 ('X', 'Desktop', 'fcwb52701658', 'X', 'D915gvwb', 'Intel', 'Intel Pentium 4', '4', 'HDD', '500'),
 ('X', 'NoteBook', '9BPP432', 'X', 'Latitude 3440', 'Dell', 'Intel Core I5-4210u', '8', 'HDD', '500'),
-('X', 'Desktop', 'x', 'X', 'Iap-420', 'Hewiett-Packard', 'Intel Core2 Duo 4', '4', 'HDD', '500'),
-('X', 'Desktop', 'x', 'X', '3598a7s', 'Lenovo', 'Intel Core I3-2120', '4', 'HDD', '500'),
-('X', 'NoteBook', 'x', 'X', '420', 'Hewlett-Packard', 'por verificar', '4', 'HDD', '500'),
+('X', 'Desktop', 'x6', 'X', 'Iap-420', 'Hewiett-Packard', 'Intel Core2 Duo 4', '4', 'HDD', '500'),
+('X', 'Desktop', 'x7', 'X', '3598a7s', 'Lenovo', 'Intel Core I3-2120', '4', 'HDD', '500'),
+('X', 'NoteBook', 'x8', 'X', '420', 'Hewlett-Packard', 'por verificar', '4', 'HDD', '500'),
 ('X', 'Desktop', 'MJMWNXL', 'X', 'ThinkCentre M71e', 'Lenovo', 'x', 'x', 'x', 'x'),
 ('X', 'Desktop', '8NK78V1', 'X', 'Vostro 260s', 'Dell', 'Intel Core I3-2120', '6', 'HDD', '1024'),
 ('X', 'Desktop', 'F4X8DZ1', 'X', 'Optiplex 7010', 'Dell', 'Intel Core I5-3470', 'X', 'HDD', '500'),
